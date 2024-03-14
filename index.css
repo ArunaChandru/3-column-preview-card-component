@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap');
+
+body{
+    font-size: 15px;
+}
+.flexContainer{
+    display: flex;
+    margin: 20vh 15% auto 20%;
+    border-radius: 10px;
+}
+
+.sedansContainer,
+.suvsContainer,
+.luxuryContainer{
+    display: flex;
+    flex-wrap: nowwrap;
+    flex-direction:column;
+    flex-basis: 300px;
+    padding: 30px;
+}
+
+.sedansContainer{
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.suvsContainer{
+    background-color:hsl(184, 100%, 22%);
+}
+.luxuryContainer{
+    background-color:hsl(179, 100%, 13%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+h1{
+    color:hsl(0, 0%, 95%);
+    font-family: "Big Shoulders Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:700;
+    font-style: normal;
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+button{
+    margin-top:20px;
+    margin-left:40px;
+    padding: 13px;
+    width:55%;
+    border-radius: 20px;
+    border: 1px solid hsl(0, 0%, 95%);
+    cursor: pointer;
+
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.sedansbtn{
+    color: hsl(31, 77%, 52%);
+}
+.suvsbtn{
+    color:hsl(184, 100%, 22%);
+}
+.luxurybtn{
+    color:hsl(179, 100%, 13%);
+}
+
+.sedansbtn:hover{
+    background-color: hsl(31, 77%, 52%);
+    color:hsl(0, 0%, 95%);
+}
+.suvsbtn:hover{
+    background-color:hsl(184, 100%, 22%);
+    color:hsl(0, 0%, 95%);
+}
+.luxurybtn:hover{
+    background-color:hsl(179, 100%, 13%);
+    color:hsl(0, 0%, 95%);
+}
+
+
+/*----------------Media Query----------*/
+
+@media screen and (max-width:888px) {
+    .flexContainer{
+        margin: 10vh 10px 10px 10px;
+    }
+    button{
+        width: 100%;
+        margin-left:0px;
+    }
+}
+
+@media screen and (max-width:375px){
+    .flexContainer{
+        display: flex;
+        flex-direction:column;
+        margin: 10vh 10px 10px 10px;
+    }
+    button{
+        width: 65%;
+        margin-top:10%;
+        margin-left: 10px;
+    }
+    .sedansContainer{
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+
+        border-bottom-left-radius:0px;
+    }
+    .luxuryContainer{
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+
+        border-top-right-radius: 0px;
+    }
+}
+
