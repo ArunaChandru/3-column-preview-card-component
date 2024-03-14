@@ -50,8 +50,9 @@ p{
     font-style: normal;
 }
 button{
-    margin-top:25%;
+    margin-top:22%;
     margin-left:10%;
+    margin-bottom:10%;
     padding: 13px;
     width:55%;
     border-radius: 20px;
