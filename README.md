@@ -45,7 +45,7 @@ Feel free to use any workflow that you feel comfortable with. Below is a suggest
 
 ## GitHub Page
 
-[GitHub Pages](https://pages.github.com/](https://arunachandru.github.io/3-column-preview-card-component/)
+[GitHub Pages] (https://pages.github.com/](https://arunachandru.github.io/3-column-preview-card-component/)
 
 ## Author
 
